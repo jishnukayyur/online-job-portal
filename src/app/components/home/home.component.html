@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="container mt-3">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-5 mb-2">
+        <input type="text" class="form-control" [(ngModel)]="jobTitle" placeholder="Job Title" aria-label="Job Title">
+      </div>
+      <div class="col-12 col-md-5 mb-2">
+        <input type="text" class="form-control" [(ngModel)]="joblocation" placeholder="Job Location" aria-label="Job Location">
+      </div>
+      <div class="col-12 col-md-2 mb-2">
+        <button type="button" class="btn btn-primary w-100" (click)="search()">Search</button>
+      </div>
+    </div>
+  </div>
+    
+
+    <div class="job-listing-container">
+      <ng-container  *ngFor="let job of jobData">
+        <div class="job-card">
+          <app-card-view [jobData]="job" >
+            <div class="job-card-actions">
+              <button *ngIf="!job.applied" (click)="apply(job.jobId)">Apply</button>
+              <button *ngIf="!job.saved" (click)="save(job.jobId)">Save</button>
+            </div>
+          </app-card-view>
+        </div>
+      </ng-container>
+      </div>
+      
+</div>
+
+
+

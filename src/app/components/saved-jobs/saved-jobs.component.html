@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="job-listing-container">
+    <ng-container  *ngFor="let job of jobData">
+      <div class="job-card">
+        <app-card-view [jobData]="job" >
+          <div class="job-card-actions">
+            <button  *ngIf="!job.applied" (click)="apply(job.jobId)">Apply</button>
+          </div>
+        </app-card-view>
+      </div>
+    </ng-container>
+    </div>
+</div>

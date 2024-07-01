@@ -1,0 +1,14 @@
+<div class="card-view-container">
+    <h2>{{ jobData.jobRole }}</h2>
+    <p><strong>Location:</strong> {{ jobData.location }}</p>
+    <p><strong>Description:</strong> {{ jobData.jobDescription }}</p>
+    <p><strong>Vacancy:</strong> {{ jobData.vacancy }}</p>
+    <p><strong>Skills Required:</strong> {{ jobData.skillsRequired.join(', ') }}</p>
+    <p><strong>Roles & Responsibilities:</strong> {{ jobData.rolesAndResponsibilities }}</p>
+    <p><strong>Company:</strong> {{ jobData.companyDescription }}</p>
+    <ng-content></ng-content>
+    <!-- <div class="job-card-actions">
+      <button (click)="apply(job.jobId)">Apply</button>
+      <button (click)="save(job.jobId)">Save</button>
+    </div> -->
+  </div>

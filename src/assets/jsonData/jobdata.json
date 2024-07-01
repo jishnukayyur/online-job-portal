@@ -1,0 +1,100 @@
+[
+    {
+        "jobId": 100,
+        "jobRole": "Software Developer/Trainee",
+        "location": "Noida",
+        "jobDescription": "1 to 2 years of experience in software development ",
+        "vacancy": 3,
+        "skillsRequired": ["Angular", "ASP.NET", "JavaScript "],
+        "rolesAndResponsibilities": "Able to configure software systems to meet market and/or client requirements Good experience in creating and designing MVC Services",
+        "companyDescription": "CAN Technologies Pvt. Ltd. is an IT enabler for its customers and partners",
+        "saved": true,
+        "applied": false
+    },
+    {
+        "jobId": 101,
+        "jobRole": "Senior Angular Developer",
+        "location": "Remote",
+        "jobDescription": "Designing and developing user interfaces using Angular best practices",
+        "vacancy": 1,
+        "skillsRequired": ["Angular","CSS", "HTML", "JavaScript "],
+        "rolesAndResponsibilities": "Adapting interface for modern internet applications using the latest front-end technologies.",
+        "companyDescription": "At Beinex, we help shape your business with data and analytics! As a digital transformation organization enrooted with ideas, innovation and unparallel customer service",
+        "saved": false,
+        "applied": true
+    },
+    {
+        "jobId": 102,
+        "jobRole": "FRONTEND DEVELOPER",
+        "location": "Kochi",
+        "jobDescription": "Build good working relationships . understand the needs of your business customers . research the market and related products",
+        "vacancy": 1,
+        "skillsRequired": ["frontend development","redux", "css", "ui development","bootstrap"],
+        "rolesAndResponsibilities": "build good working relationships,understand the needs of your business customers",
+        "companyDescription": "Eastern Treads mainly focuses on manufacturing and marketing of tyre - retreading materials, namely, pre - cured tread rubber, bonding gum and vulcanizing solution",
+        "saved": false,
+        "applied": false
+    },
+    {
+        "jobId": 103,
+        "jobRole": "Senior Web Application Developer",
+        "location": "Kochi",
+        "jobDescription": "Server and Database Management,Code Review and Deployment",
+        "vacancy": 5,
+        "skillsRequired": ["Unix","Version control", "Linux", "Database management","Social media"],
+        "rolesAndResponsibilities": "Monitor databases and servers to ensure optimal performance, Review and validate programming work for accuracy and functionality.",
+        "companyDescription": "BEO Software is a company that has been built upon certain principles.",
+        "saved": false,
+        "applied": false
+    },
+    {
+        "jobId": 104,
+        "jobRole": "Full Stack Developer",
+        "location": "Remote",
+        "jobDescription": "Aventure Corporate Solution is looking for Full Stack Developer to join our dynamic team and embark on a rewarding career journey.",
+        "vacancy": 10,
+        "skillsRequired": ["spring boot","Javascript"],
+        "rolesAndResponsibilities": "Developing front end website architecture,Designing user interactions on web pages.",
+        "companyDescription": "Aventure Corporate Solution Pvt. Ltd. is an organization that believes in the need for exponential evolution as a means to survive and grow.",
+        "saved": false,
+        "applied": false
+    },
+    {
+        "jobId": 105,
+        "jobRole": "Senior Dot Net Core Developer",
+        "location": "Kochi",
+        "jobDescription": "Excellent knowledge in developing REST APIs and Entity Framework Knowledge and experience in writing SQL, SPs, and Triggers Sound knowledge of MVC frameworks and databases.",
+        "vacancy": 3,
+        "skillsRequired": ["C#",".net core", "Rest Api Development", "Asp.Net Core","MVC"],
+        "rolesAndResponsibilities": "Responsible for designing & developing REST APIs using .Net Core Framework & C# & high-performance REST APIs for financial apps.",
+        "companyDescription": "A leading IT company at Kochi",
+        "saved": false,
+        "applied": false
+    },
+    {
+        "jobId": 106,
+        "jobRole": "Front End Developer/ .NET core/MVC",
+        "location": "Kochi",
+        "jobDescription": "Origent specializes in developing web-based Software-as-a-Service (SaaS) solutions tailored for childcare and after-school programs.",
+        "vacancy": 2,
+        "skillsRequired": ["ASP.Net","MVC", "JQuery", "Vue","Bootstrap"],
+        "rolesAndResponsibilities": "The ideal candidate should display proactive initiative and a keen enthusiasm for mastering novel web technologies.",
+        "companyDescription": "Origent Technologies is a software development company providing solutions to customers across North America for over 20 years.",
+        "saved": false,
+        "applied": false
+    },
+    {
+        "jobId": 107,
+        "jobRole": ".Net Developer C# Desktop Application",
+        "location": "Thiruvananthapuram",
+        "jobDescription": "Experienced in Microsoft technologies, specializing in C#.NET for desktop apps. ",
+        "vacancy": 4,
+        "skillsRequired": ["C#","Agile", "Windows Application Development", "WPF","TFS"],
+        "rolesAndResponsibilities": "Strong communication, teamwork, and commitment to continuous improvement.",
+        "companyDescription": "Client of Signal HR",
+        "saved": false,
+        "applied": false
+    }
+    
+]
+

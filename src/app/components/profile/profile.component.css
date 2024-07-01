@@ -1,0 +1,12 @@
+.card{
+    border:none;
+    position:relative;
+    overflow:hidden;
+    border-radius:8px;
+}
+
+.role{
+    color: inherit;
+}
+
+

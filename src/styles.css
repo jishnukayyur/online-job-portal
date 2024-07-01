@@ -1,0 +1,83 @@
+/* You can add global styles to this file, and also import other style files */
+.container{
+    padding: 2%;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+.job-listing-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Adjusts the gap between cards */
+    padding: 16px;
+  }
+  
+  .job-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: calc(33.33% - 16px); /* Makes each card take up one-third of the row, accounting for the gap */
+    box-sizing: border-box;
+    transition: transform 0.2s;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .job-card h2 {
+    font-size: 1.5em;
+    margin: 0 0 8px;
+  }
+  
+  .job-card p {
+    margin: 4px 0;
+  }
+  
+  .job-card-actions {
+    display: flex;
+    justify-content: right;
+    margin-top: 16px;
+  }
+  
+  .job-card-actions button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .job-card-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 900px) {
+    .job-card {
+      width: calc(50% - 16px); /* Adjusts to two cards per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .job-card {
+      width: 100%; /* Adjusts to one card per row on very small screens */
+    }
+  }
+  
+    .card-view-container {
+      height: 100%;
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }

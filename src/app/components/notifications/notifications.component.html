@@ -1,0 +1,11 @@
+<div class="container">
+    <h5>Notifications </h5>
+    <ul class="list-group" *ngFor="let notif of notificationData">
+        <li class="list-group-item">{{notif}}</li>
+      </ul>
+      <ul *ngIf="notificationData.length ===0" class="list-group">
+        <li class="list-group-item">No notification available</li>
+      </ul>
+
+</div>
+

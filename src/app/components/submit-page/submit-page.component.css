@@ -1,0 +1,15 @@
+.search-bar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    input{
+        width: 250px;
+    }
+}
+
+.required{
+    color: red;
+    font-size: small;
+}

@@ -32,7 +32,8 @@ export class HomeComponent {
   }
 
   getJobData(){
-    this.jobData= this._dataserv.alljobs()
+    this.jobDataCopy= this._dataserv.alljobs()
+    this.jobData= this.jobDataCopy
   }
 
   search(){
